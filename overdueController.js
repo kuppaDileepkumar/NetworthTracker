@@ -1,4 +1,4 @@
-const Loan = require('../models/Loan') // Make sure this path is correct
+const Loan = require('./Loan') // Make sure this path is correct
 
 // @desc   Get all overdue loans for the authenticated user
 // @route  GET /api/overdue
