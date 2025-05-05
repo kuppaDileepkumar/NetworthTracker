@@ -1,4 +1,4 @@
-const Loan = require('../models/Loan') // ensure path is correct
+const Loan = require('./Loan') // ensure path is correct
 
 const getSummary = async (req, res) => {
   // ✅ Defensive check
