@@ -8,7 +8,7 @@ const cors = require('cors');
 // Load environment variables
 dotenv.config();
 
-const authRoutes = require('./routes/authRoutes');
+const authRoutes = require('./authRoutes');
 const customerRoutes = require('./routes/customerRoutes');
 const loanRoutes = require('./routes/loanRoutes');
 const summaryRoutes = require('./routes/summaryRoutes')
