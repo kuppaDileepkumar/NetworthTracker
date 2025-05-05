@@ -7,7 +7,7 @@ const {
   recordRepayment,
   getSummary,
   getOverdues
-} = require('.loanController');
+} = require('./loanController');
 
 router.use(auth);
 router.post('/', createLoan);
