@@ -1,6 +1,6 @@
 // controllers/repaymentController.js
-const Repayment = require('../models/Repayment');
-const Loan = require('../models/Loan');
+const Repayment = require('./Repayment');
+const Loan = require('./Loan');
 
 exports.createRepayment = async (req, res) => {
   try {
