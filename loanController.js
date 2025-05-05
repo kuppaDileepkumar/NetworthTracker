@@ -1,4 +1,4 @@
-const Loan = require('../models/Loan');
+const Loan = require('./Loan');
 const moment = require('moment');
 
 exports.createLoan = async (req, res) => {
