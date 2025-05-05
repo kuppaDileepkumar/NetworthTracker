@@ -9,11 +9,11 @@ const cors = require('cors');
 dotenv.config();
 
 const authRoutes = require('./authRoutes');
-const customerRoutes = require('./routes/customerRoutes');
-const loanRoutes = require('./routes/loanRoutes');
-const summaryRoutes = require('./routes/summaryRoutes')
-const repaymentRoutes = require('./routes/repaymentRoutes')
-const overdueRoutes = require('./routes/overdueRoutes');
+const customerRoutes = require('./customerRoutes');
+const loanRoutes = require('./loanRoutes');
+const summaryRoutes = require('./summaryRoutes')
+const repaymentRoutes = require('./repaymentRoutes')
+const overdueRoutes = require('./overdueRoutes');
 
 const app = express();
 
