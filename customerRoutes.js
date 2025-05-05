@@ -6,7 +6,7 @@ const {
   getCustomers,
   updateCustomer,
   deleteCustomer
-} = require('../controllers/customerController');
+} = require('.customerController');
 
 router.use(auth);
 router.post('/', createCustomer);
